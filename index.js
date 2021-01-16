@@ -1,8 +1,6 @@
-const express = require('express')
-const index = express()
-const findServer = require('./src/router/findServer')
+const app = require('./app.js')
+const port = 5000
 
-
-index.use(findServer)
-
-module.exports = index
+app.listen(port, '0.0.0.0', () => {
+    console.log(`Server running on port ${port}.`)
+})

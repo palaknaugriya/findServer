@@ -1,5 +1,5 @@
 const request = require('supertest')
-const index = require('../index')
+const index = require('../app.js')
 
 beforeAll(done => {
     done()
