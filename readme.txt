@@ -14,6 +14,9 @@ steps to run it locally:
 -> npm install
 -> nodemon start
 
+unit testing:
+npm test
+
 curl request:
 curl --location --request GET 'localhost:5000/findServer'
 
