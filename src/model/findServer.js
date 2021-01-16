@@ -13,8 +13,7 @@ const fetchData = server => {
                 return reject({ code: 500, error: 'Something went wrong.' })
             }
             // setTimeout of 5 secs
-            return setTimeout(() => resolve(server), 5000);
-            // return resolve(server)
+            return setTimeout(() => resolve(server), 5000)
         })
     })
 }
