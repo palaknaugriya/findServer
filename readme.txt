@@ -1,3 +1,7 @@
+about:
+This module determines the availability of a given list of servers and then returns the deatils regarding the
+availability of servers.
+
 prerequisites:
 -> node
 -> JSON file to placed strictly on this path ('<project root folder>/src/files/server.json')
