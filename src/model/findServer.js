@@ -14,6 +14,7 @@ const fetchData = server => {
             }
             // setTimeout of 5 secs
             return setTimeout(() => resolve(server), 5000);
+            // return resolve(server)
         })
     })
 }

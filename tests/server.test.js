@@ -1,6 +1,15 @@
-const { TestScheduler } = require('jest')
-const validateServerObj = require('../src/validateServerObj')
+const request = require('supertest')
+const index = require('../index')
 
-test('JSON schema testing', () =>{
-    expect(validateServerObj().eq)
+beforeAll(done => {
+    done()
 })
+
+afterAll(done => {
+    done()
+})
+
+test('find server', async() => {
+    const response = await request(index).get('/findServer')
+    expect(response.status).toBe(200)
+}, 10000)
