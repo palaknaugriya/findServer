@@ -1,0 +1,22 @@
+{
+    "name": "findserver",
+    "version": "1.0.0",
+    "description": "finds server with lowest priority",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "jest"
+    },
+    "author": "Palak Gupta",
+    "license": "ISC",
+    "dependencies": {
+        "ajv": "^7.0.3",
+        "express": "^4.17.1",
+        "p-limit": "^3.1.0",
+        "request": "^2.88.2"
+    },
+    "devDependencies": {
+        "jest": "^26.6.3",
+        "nodemon": "^2.0.7"
+    }
+}
