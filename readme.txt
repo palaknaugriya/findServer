@@ -21,6 +21,10 @@ curl request:
 curl --location --request GET 'localhost:5000/findServer'
 
 output:
+Explanation: Since the http requests are done simulatenously as per the proiority, lowest 
+first, the response has the lowest one in the end, since the response detail of each server
+is pushed inside the array, lowest being pushed first if they are resolved.
+
 JSON reponse which contains the following details:
 [
     {
